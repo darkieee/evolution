@@ -1,0 +1,42 @@
+game:
+  multiplayer?
+
+
+evolution requirements:
+  self-replication
+  blueprint
+  inherit blueprint
+  Mutation
+  selection
+
+
+simulation settings:
+  world-size
+  population
+  steps/gen
+  genome length
+  inner neurons
+
+
+little creatures: (unnamed as-of-now)
+  location
+  genome
+    decides it's neuralnet
+    represented by string
+  neuralnet brain
+  reproduction <-- ADD THIS NOW
+    offspring produced from surviving
+    genes from parent(s) <- maybe
+
+
+brain wiring:
+  inputs
+  outputs
+  internal
+  connections (wiring)
+    genes determine connections and wiring
+      ^ improve ^
+
+
+notes:
+  increase c detection radius

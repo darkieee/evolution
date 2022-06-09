@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-template"
+version = "0.1.0"
+description = "This is a program that aims to simulate evolution. just provide it number of generation you want as an input and it will simulate it."
+authors = ["Ashish Ranjan <darkcosmos76@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8.0,<3.9"
+numpy = "^1.22.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
